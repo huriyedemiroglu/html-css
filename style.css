@@ -1,0 +1,78 @@
+/* Reset Css Rules */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+​
+html {
+  font-size: 16px;
+}
+​
+body {
+  background-image: url(.image/background_image.jpeg);
+  color: white;
+  padding: 30px 100px;
+}
+​
+#page-container {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+​
+#form-header {
+  text-align: center;
+}
+​
+#form-title {
+  padding: 15px;
+  font-family: 'Bowlby One SC', cursive;
+  letter-spacing: 5px;
+}
+​
+#form-title span {
+  color: red;
+}
+​
+#survey-form {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 40px;
+  background-color: black;
+}
+​
+label {
+  margin-bottom: 10px;
+}
+​
+.form-group {
+  margin-bottom: 20px;
+}
+​
+label, input {
+  display: block;
+}
+​
+.checkbox-group input, .checkbox-group label {
+  display: inline-block;
+}
+​
+input, textarea, select {
+  padding: 10px;
+  width: 100%;
+}
+​
+.checkbox-group input {
+  width: auto;
+}
+​
+#form-submit {
+  text-align: center;
+}
+​
+button {
+  background-color: red;
+  padding: 22px 62px;
+  color: white;
+  border-radius: 50px;
+}
+​

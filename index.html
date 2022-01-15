@@ -3,15 +3,92 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=<h1>, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Survey Form</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>HELLO</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, quae
-      aut velit fugiat perspiciatis maxime possimus beatae, debitis adipisci
-      suscipit quas ut minus temporibus quidem dolore dicta illo non sed?
-    </p>
+    <div id="page-container">
+      <header id="form-header">
+        <h1 id="form-title">Net<span>flix</span></h1>
+        <p id="form-description">
+          Thank you for signing up to Netflix. Tell me more about yourself.
+        </p>
+      </header>
+      <main>
+        <section id="survey-form">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input id="name" type="text" placeholder="enter your name" />
+            </div>
+            <div class="form-group">
+              <label for="age">Age</label>
+              <input
+                id="age"
+                type="number"
+                min="0"
+                placeholder="enter your age"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="enter your email" />
+            </div>
+            <div class="form-group">
+              <label for="content-type">Content Type</label>
+              <select id="content-type">
+                <option value="" disabled selected>Select your option</option>
+                <option value="movie">Movie</option>
+                <option value="series">Series</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Movie Type</label>
+              <div class="checkbox-group">
+                <input id="comedy" type="checkbox" />
+                <label for="comedy">Comedy</label>
+              </div>
+              <div class="checkbox-group">
+                <input id="action" type="checkbox" />
+                <label for="action">Action</label>
+              </div>
+              <div class="checkbox-group">
+                <input id="romance" type="checkbox" />
+                <label for="romance">Romance</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Gender</label>
+              <div class="checkbox-group">
+                <input id="male" type="checkbox" />
+                <label for="male">Male</label>
+              </div>
+              <div class="checkbox-group">
+                <input id="female" type="checkbox" />
+                <label for="female">Female</label>
+              </div>
+              <div class="checkbox-group">
+                <input id="other" type="checkbox" />
+                <label for="other">Other</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="feedback">Feedback</label>
+              <textarea id="feedback" cols="30" rows="10"></textarea>
+            </div>
+            <div id="form-submit">
+              <button>Send</button>
+            </div>
+          </form>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
