@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #header {
+        background-color: gray;
+        padding: 20px;
+        margin: 15px;
+        margin-bottom: 150px;
+        display: flex;
+      }
+
+      @media screen and (max-width: 992px) {
+        body {
+          background-color: lightgreen;
+        }
+      }
+
+      @media screen and (max-width: 768px) {
+        body {
+          background-color: tomato;
+        }
+        #header {
+          justify-content: space-evenly;
+        }
+      }
+
+      @media screen and (max-width: 600px) {
+        body {
+          background-color: purple;
+        }
+        #header {
+          background-color: turquoise;
+          flex-direction: column;
+          align-items: center;
+        }
+        #first_main {
+          background-color: purple;
+          border-color: red;
+        }
+
+        a {
+          color: black;
+        }
+        p::before {
+          content: "Did you realize, you made a magic";
+        }
+      }
+
+      a {
+        text-decoration: none;
+        font-size: 1rem;
+        color: white;
+        display: flex;
+        float: left;
+
+        align-content: flex-end;
+      }
+      #first_main {
+        background-color: green;
+        padding: 60px;
+        margin: 120px;
+        border: 13px solid blue;
+      }
+      p {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <a href="#"> Home </a>
+
+      <a href="#">About</a>
+      <a href="#">Products</a>
+      <a href="#">Contact</a>
+    </header>
+
+    <main id="first_main">
+      <p>First make me smaller, then lost me!</p>
+    </main>
+  </body>
+</html>

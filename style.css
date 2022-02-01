@@ -10,9 +10,9 @@ html {
 }
 ​
 body {
-  background-image: url(.image/background_image.jpeg);
-  color: white;
-  padding: 30px 100px;
+  background-image: url(./image/background_image.jpeg);
+  color : white;
+  padding : 30px 100px;
 }
 ​
 #page-container {
@@ -75,4 +75,3 @@ button {
   color: white;
   border-radius: 50px;
 }
-​
