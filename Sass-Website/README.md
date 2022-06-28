@@ -16,9 +16,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: https://elifyca.github.io/Sass-Website/
 
-### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
