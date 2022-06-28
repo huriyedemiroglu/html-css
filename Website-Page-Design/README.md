@@ -13,9 +13,6 @@ Users should be able to:
 
 ![./screenshot.png](./images/screenshot.png)
 
-### Links
-
-- Live Site URL: [https://elifyca.github.io/Website-Page-Design/index.html](https://elifyca.github.io/Website-Page-Design/index.html)
 
 ### Built with
 
